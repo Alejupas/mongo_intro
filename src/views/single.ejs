@@ -10,9 +10,10 @@
     <h2>Single post view</h2>
     
     <main>
-        <h1>Title</h1>
-        <h3>Author</h3>
-        <p>Body</p>
+        <h1><%= title %> </h1>
+        <h3><%= author %> </h3>
+        <p><%= body %> </p>
+        <p><%= createdAt.toLocaleString() %> </p>
     </main>
 </body>
 </html>

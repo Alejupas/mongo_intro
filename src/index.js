@@ -36,7 +36,7 @@ app.get('/posts', (req, res) => {
 app.get('/single-post', (req, res) => {
   const id = '60b60617fc64db0a68716001';
   Post.findById(id)
-    .then((result) => res.json(result))
+    .then((result) => res.render('single', result))
     .catch((err) => console.log(err.message));
 });
 
