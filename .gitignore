@@ -1,1 +1,3 @@
 node_modules
+# mongo db access string with pwd
+src/config/config.js
