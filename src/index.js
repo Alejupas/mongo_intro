@@ -11,7 +11,10 @@ const { mongoDbString } = require('./config/config');
 
 console.log('mongoDBstring:', mongoDbString);
 // prisijungimas prie DB
-mongoose.connect(mongoDbString);
+mongoose.connect(mongoDbString, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 // paleidzia serveri ir klausosi http ir kt requestu nurodytu portu
 app.listen(3000, () => console.log('server is running'));
