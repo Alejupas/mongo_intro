@@ -1,0 +1,28 @@
+{
+  "name": "mongo_intro",
+  "version": "1.0.0",
+  "description": "mongo pradzia",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejupas/mongo_intro.git"
+  },
+  "keywords": [
+    "mongo",
+    "db",
+    "nodejs",
+    "npm"
+  ],
+  "author": "M.K.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alejupas/mongo_intro/issues"
+  },
+  "homepage": "https://github.com/Alejupas/mongo_intro#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
